@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedHeavy-Italic.eot');
+    src: local('Boxed Heavy Italic'), local('BoxedHeavy-Italic'),
+        url('BoxedHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedHeavy-Italic.woff2') format('woff2'),
+        url('BoxedHeavy-Italic.woff') format('woff'),
+        url('BoxedHeavy-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedRegular-Bold.eot');
+    src: local('Boxed Regular Bold'), local('BoxedRegular-Bold'),
+        url('BoxedRegular-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BoxedRegular-Bold.woff2') format('woff2'),
+        url('BoxedRegular-Bold.woff') format('woff'),
+        url('BoxedRegular-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedMedium-Italic.eot');
+    src: local('Boxed Medium Italic'), local('BoxedMedium-Italic'),
+        url('BoxedMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedMedium-Italic.woff2') format('woff2'),
+        url('BoxedMedium-Italic.woff') format('woff'),
+        url('BoxedMedium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedSemibold-Italic.eot');
+    src: local('Boxed Semibold Italic'), local('BoxedSemibold-Italic'),
+        url('BoxedSemibold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedSemibold-Italic.woff2') format('woff2'),
+        url('BoxedSemibold-Italic.woff') format('woff'),
+        url('BoxedSemibold-Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedThin-Italic.eot');
+    src: local('Boxed Thin Italic'), local('BoxedThin-Italic'),
+        url('BoxedThin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedThin-Italic.woff2') format('woff2'),
+        url('BoxedThin-Italic.woff') format('woff'),
+        url('BoxedThin-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedExtralight-Italic.eot');
+    src: local('Boxed Extralight Italic'), local('BoxedExtralight-Italic'),
+        url('BoxedExtralight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedExtralight-Italic.woff2') format('woff2'),
+        url('BoxedExtralight-Italic.woff') format('woff'),
+        url('BoxedExtralight-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedRegular.eot');
+    src: local('Boxed Regular'), local('BoxedRegular'),
+        url('BoxedRegular.eot?#iefix') format('embedded-opentype'),
+        url('BoxedRegular.woff2') format('woff2'),
+        url('BoxedRegular.woff') format('woff'),
+        url('BoxedRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedRegular-Italic.eot');
+    src: local('Boxed Regular Italic'), local('BoxedRegular-Italic'),
+        url('BoxedRegular-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedRegular-Italic.woff2') format('woff2'),
+        url('BoxedRegular-Italic.woff') format('woff'),
+        url('BoxedRegular-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedLight.eot');
+    src: local('Boxed Light'), local('BoxedLight'),
+        url('BoxedLight.eot?#iefix') format('embedded-opentype'),
+        url('BoxedLight.woff2') format('woff2'),
+        url('BoxedLight.woff') format('woff'),
+        url('BoxedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed Book';
+    src: url('BoxedBook-Italic.eot');
+    src: local('Boxed Book Italic'), local('BoxedBook-Italic'),
+        url('BoxedBook-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedBook-Italic.woff2') format('woff2'),
+        url('BoxedBook-Italic.woff') format('woff'),
+        url('BoxedBook-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedMedium.eot');
+    src: local('Boxed Medium'), local('BoxedMedium'),
+        url('BoxedMedium.eot?#iefix') format('embedded-opentype'),
+        url('BoxedMedium.woff2') format('woff2'),
+        url('BoxedMedium.woff') format('woff'),
+        url('BoxedMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedSemibold.eot');
+    src: local('Boxed Semibold'), local('BoxedSemibold'),
+        url('BoxedSemibold.eot?#iefix') format('embedded-opentype'),
+        url('BoxedSemibold.woff2') format('woff2'),
+        url('BoxedSemibold.woff') format('woff'),
+        url('BoxedSemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedHeavy.eot');
+    src: local('Boxed Heavy'), local('BoxedHeavy'),
+        url('BoxedHeavy.eot?#iefix') format('embedded-opentype'),
+        url('BoxedHeavy.woff2') format('woff2'),
+        url('BoxedHeavy.woff') format('woff'),
+        url('BoxedHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedRegular-BoldItalic.eot');
+    src: local('Boxed Regular Bold Italic'), local('BoxedRegular-BoldItalic'),
+        url('BoxedRegular-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedRegular-BoldItalic.woff2') format('woff2'),
+        url('BoxedRegular-BoldItalic.woff') format('woff'),
+        url('BoxedRegular-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedThin.eot');
+    src: local('Boxed Thin'), local('BoxedThin'),
+        url('BoxedThin.eot?#iefix') format('embedded-opentype'),
+        url('BoxedThin.woff2') format('woff2'),
+        url('BoxedThin.woff') format('woff'),
+        url('BoxedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed Book';
+    src: url('BoxedBook.eot');
+    src: local('Boxed Book'), local('BoxedBook'),
+        url('BoxedBook.eot?#iefix') format('embedded-opentype'),
+        url('BoxedBook.woff2') format('woff2'),
+        url('BoxedBook.woff') format('woff'),
+        url('BoxedBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedLight-Italic.eot');
+    src: local('Boxed Light Italic'), local('BoxedLight-Italic'),
+        url('BoxedLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BoxedLight-Italic.woff2') format('woff2'),
+        url('BoxedLight-Italic.woff') format('woff'),
+        url('BoxedLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Boxed';
+    src: url('BoxedExtralight.eot');
+    src: local('Boxed Extralight'), local('BoxedExtralight'),
+        url('BoxedExtralight.eot?#iefix') format('embedded-opentype'),
+        url('BoxedExtralight.woff2') format('woff2'),
+        url('BoxedExtralight.woff') format('woff'),
+        url('BoxedExtralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+

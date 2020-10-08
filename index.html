@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITGY.X ВДОМА</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--  loader -->
+<div class="preloader vertical-centered-box">
+  <div class="content">
+    <div class="loader-circle"></div>
+    <div class="loader-line-mask">
+      <div class="loader-line"></div>
+    </div>
+    <svg width="36px" height="24px" viewBox="0 0 36 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <path d="M8.98885921,23.8523026 C8.8942483,23.9435442 8.76801031,24 8.62933774,24 L2.03198365,24 C1.73814918,24 1.5,23.7482301 1.5,23.4380086 C1.5,23.2831829 1.55946972,23.1428989 1.65570253,23.0416777 L13.2166154,12.4291351 C13.3325814,12.3262031 13.4061076,12.1719477 13.4061076,11.999444 C13.4061076,11.8363496 13.3401502,11.6897927 13.2352673,11.587431 L1.68841087,0.990000249 C1.57298556,0.88706828 1.5,0.733668282 1.5,0.561734827 C1.5,0.251798399 1.73814918,2.85130108e-05 2.03198365,2.85130108e-05 L8.62933774,2.85130108e-05 C8.76855094,2.85130108e-05 8.89532956,0.0561991444 8.98994048,0.148296169 L21.4358709,11.5757407 C21.548593,11.6783875 21.6196864,11.8297916 21.6196864,11.999444 C21.6196864,12.1693815 21.5483227,12.3219261 21.4350599,12.4251432 L8.98885921,23.8523026 Z M26.5774333,23.8384453 L20.1765996,17.9616286 C20.060093,17.8578413 19.9865669,17.703871 19.9865669,17.5310822 C19.9865669,17.3859509 20.0390083,17.2536506 20.1246988,17.153855 L23.4190508,14.1291948 C23.5163648,14.0165684 23.6569296,13.945571 23.8131728,13.945571 C23.9602252,13.945571 24.0929508,14.0082997 24.1894539,14.1092357 L33.861933,22.9913237 C33.9892522,23.0939706 34.0714286,23.2559245 34.0714286,23.4381226 C34.0714286,23.748059 33.8332794,23.9998289 33.5394449,23.9998289 L26.9504707,23.9998289 C26.8053105,23.9998289 26.6733958,23.9382408 26.5774333,23.8384453 Z M26.5774333,0.161098511 C26.6733958,0.0615881034 26.8053105,0 26.9504707,0 L33.5394449,0 C33.8332794,0 34.0714286,0.251769886 34.0714286,0.561706314 C34.0714286,0.743904453 33.9892522,0.905573224 33.861933,1.00822006 L24.1894539,9.89030807 C24.0929508,9.99152926 23.9602252,10.0542579 23.8131728,10.0542579 C23.6569296,10.0542579 23.5163648,9.98354562 23.4190508,9.87063409 L20.1246988,6.8459739 C20.0390083,6.74617837 19.9865669,6.613878 19.9865669,6.46874677 C19.9865669,6.29624305 20.060093,6.14198767 20.1765996,6.03848544 L26.5774333,0.161098511 Z" fill="#48fd4a"></path>
+    </svg>
+  </div>
+</div>
+
+<!--  loader -->
+
+    <div class="left-line">
+        <p id="left-line"> 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING 33 MINUTES BOXING </p>
+    </div>    
+<div class="time-container">
+    <div class="time-title">
+        <h1><span>FITGY.X</span> ВДОМА</h1>
+        <h2 id="outName"></h2>
+    </div>
+    <div id="arrows" class="week-arrows">
+        <div id="left-arrow" class="week-arrow_prev left-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none"> <path d="M6.10708 1.11693L1.6495e-06 7.05061L3.03558 10L13.0045 0.322861L22.9644 10L26 7.05061L19.8929 1.11693C19.1565 0.401394 18.1596 -1.22192e-06 17.1178 -1.13084e-06L8.88221 -4.10864e-07C7.84041 -3.19787e-07 6.84352 0.401396 6.10708 1.11693Z" fill="#48FD4A"></path> </svg></div>
+        <div id="one" class="week-arrow_prev"> 1-7 ДЕНЬ</div>
+        <div id="two" class="week-arrow_next">8-14 ДЕНЬ</div>
+        <div id="three" class="week-arrow_prev">15-21 ДЕНЬ</div>
+        <div id="four" class="week-arrow_prev">22-28 ДЕНЬ </div>
+        <div id="five" class="week-arrow_next">29-31 ДЕНЬ </div>
+        <div id="right-arrow" class="week-arrow_next right-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="10" viewBox="0 0 26 10" fill="none"> <path d="M6.10708 1.11693L1.6495e-06 7.05061L3.03558 10L13.0045 0.322861L22.9644 10L26 7.05061L19.8929 1.11693C19.1565 0.401394 18.1596 -1.22192e-06 17.1178 -1.13084e-06L8.88221 -4.10864e-07C7.84041 -3.19787e-07 6.84352 0.401396 6.10708 1.11693Z" fill="#48FD4A"></path> </svg></div>
+    </div>
+   <!-- Неделя первая -->
+   <div id="week-one" class="week">
+       первая неделя
+    <ul class="tabs first-week">
+        <li rel="tab1" class="monday">ПОНЕДІЛОК</li>
+        <li rel="tab2" class="tuesday">ВІВТОРОК</li>
+        <li rel="tab3" class="wednesday">СЕРЕДА</li>
+        <li rel="tab4" class="thursday">ЧЕТВЕР</li>
+        <li rel="tab5" class="friday">П'ЯТНИЦЯ</li>
+        <li rel="tab6" class="saturday">СУБОТА</li>
+        <li rel="tab7" class="sunday">НЕДІЛЯ</li>
+      </ul>
+    <div class="tab_container">
+        <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
+        <div id="tab1" class="tab_content tab_content-first">
+        <h2>ПОНЕДІЛОК</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/1.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab1 -->
+        <h3 class="tab_drawer_heading" rel="tab2">Tab 2</h3>
+        <div id="tab2" class="tab_content tab_content-first">
+        <h2>ВІВТОРОК</h2>
+          <div class="blocks">
+              <div class="blocks_video">
+                <a href="#">
+                  <img src="img/2.png" alt="">
+                  <p>ВІДЕО ТРЕНУВАННЯ</p>
+                </a>
+              </div>
+              <div class="blocks__menu">
+                <a href="#">
+                  <img src="img/1.png" alt="">
+                  <p>МЕНЮ НА ДЕНЬ</p>
+                </a>  
+              </div>
+          </div>
+        </div>
+        <!-- #tab2 -->
+        <h3 class="tab_drawer_heading" rel="tab3">Tab 3</h3>
+        <div id="tab3" class="tab_content tab_content-first">
+        <h2>СЕРЕДА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/3.jpg" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab3 -->
+        <h3 class="tab_drawer_heading" rel="tab4">Tab 4</h3>
+        <div id="tab4" class="tab_content tab_content-first">
+        <h2>ЧЕТВЕР</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/4.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab5">Tab 5</h3>
+        <div id="tab5" class="tab_content tab_content-first">
+        <h2>П'ЯТНИЦЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/5.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab5 --> 
+        <h3 class="tab_drawer_heading" rel="tab6">Tab 6</h3>
+        <div id="tab6" class="tab_content tab_content-first">
+        <h2>СУБОТА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/6.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab7">Tab 7</h3>
+        <div id="tab7" class="tab_content tab_content-five">
+        <h2>НЕДІЛЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/7.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+      </div>
+      <!-- .tab_container -->
+    </div>  
+    <!-- Неделя первая конец -->
+    <!-- Вторая неделя -->
+   <div id="week-two" class="week">
+       вторая неделя
+    <ul class="tabs">
+        <li rel="tab8" class="monday">ПОНЕДІЛОК</li>
+        <li rel="tab9" class="tuesday">ВІВТОРОК</li>
+        <li rel="tab10" class="wednesday">СЕРЕДА</li>
+        <li rel="tab11" class="thursday">ЧЕТВЕР</li>
+        <li rel="tab12" class="friday">П'ЯТНИЦЯ</li>
+        <li rel="tab13" class="saturday">СУБОТА</li>
+        <li rel="tab14" class="sunday">НЕДІЛЯ</li>
+      </ul>
+    <div class="tab_container">
+        <h3 class="d_active tab_drawer_heading" rel="tab8">Tab 1</h3>
+        <div id="tab8" class="tab_content">
+        <h2>ПОНЕДІЛОК</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/1.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab1 -->
+        <h3 class="tab_drawer_heading" rel="tab9">Tab 2</h3>
+        <div id="tab9" class="tab_content">
+        <h2>ВІВТОРОК</h2>
+          <div class="blocks">
+              <div class="blocks_video">
+                <a href="#">
+                  <img src="img/2.png" alt="">
+                  <p>ВІДЕО ТРЕНУВАННЯ</p>
+                </a>
+              </div>
+              <div class="blocks__menu">
+                <a href="#">
+                  <img src="img/1.png" alt="">
+                  <p>МЕНЮ НА ДЕНЬ</p>
+                </a>  
+              </div>
+          </div>
+        </div>
+        <!-- #tab2 -->
+        <h3 class="tab_drawer_heading" rel="tab10">Tab 3</h3>
+        <div id="tab10" class="tab_content">
+        <h2>СЕРЕДА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/3.jpg" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab3 -->
+        <h3 class="tab_drawer_heading" rel="tab11">Tab 4</h3>
+        <div id="tab11" class="tab_content">
+        <h2>ЧЕТВЕР</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/4.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab12">Tab 5</h3>
+        <div id="tab12" class="tab_content">
+        <h2>П'ЯТНИЦЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/5.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab5 --> 
+        <h3 class="tab_drawer_heading" rel="tab13">Tab 6</h3>
+        <div id="tab13" class="tab_content">
+        <h2>СУБОТА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/6.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab14">Tab 7</h3>
+        <div id="tab14" class="tab_content">
+        <h2>НЕДІЛЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/7.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+      </div>
+      <!-- .tab_container -->
+    </div>  
+    <!-- Вторая неделя конец -->
+    <!-- Третья неделя -->
+   <div id="week-three" class="week">
+       третья неделя
+    <ul class="tabs">
+        <li rel="tab15" class="monday">ПОНЕДІЛОК</li>
+        <li rel="tab16" class="tuesday">ВІВТОРОК</li>
+        <li rel="tab17" class="wednesday">СЕРЕДА</li>
+        <li rel="tab18" class="thursday">ЧЕТВЕР</li>
+        <li rel="tab19" class="friday">П'ЯТНИЦЯ</li>
+        <li rel="tab20" class="saturday">СУБОТА</li>
+        <li rel="tab21" class="sunday">НЕДІЛЯ</li>
+      </ul>
+    <div class="tab_container">
+        <h3 class="d_active tab_drawer_heading" rel="tab15">Tab 1</h3>
+        <div id="tab15" class="tab_content">
+        <h2>ПОНЕДІЛОК</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/1.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab1 -->
+        <h3 class="tab_drawer_heading" rel="tab16">Tab 2</h3>
+        <div id="tab16" class="tab_content">
+        <h2>ВІВТОРОК</h2>
+          <div class="blocks">
+              <div class="blocks_video">
+                <a href="#">
+                  <img src="img/2.png" alt="">
+                  <p>ВІДЕО ТРЕНУВАННЯ</p>
+                </a>
+              </div>
+              <div class="blocks__menu">
+                <a href="#">
+                  <img src="img/1.png" alt="">
+                  <p>МЕНЮ НА ДЕНЬ</p>
+                </a>  
+              </div>
+          </div>
+        </div>
+        <!-- #tab2 -->
+        <h3 class="tab_drawer_heading" rel="tab17">Tab 3</h3>
+        <div id="tab17" class="tab_content">
+        <h2>СЕРЕДА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/3.jpg" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab3 -->
+        <h3 class="tab_drawer_heading" rel="tab18">Tab 4</h3>
+        <div id="tab18" class="tab_content">
+        <h2>ЧЕТВЕР</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/4.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab19">Tab 5</h3>
+        <div id="tab19" class="tab_content">
+        <h2>П'ЯТНИЦЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/5.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab5 --> 
+        <h3 class="tab_drawer_heading" rel="tab20">Tab 6</h3>
+        <div id="tab20" class="tab_content">
+        <h2>СУБОТА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/6.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab21">Tab 7</h3>
+        <div id="tab21" class="tab_content">
+        <h2>НЕДІЛЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/7.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+      </div>
+      <!-- .tab_container -->
+    </div>  
+    <!-- Третья неделя конец -->
+    <!-- Четвертая неделя -->
+   <div id="week-four" class="week">
+       четвертая неделя
+    <ul class="tabs">
+        <li rel="tab22" class="monday">ПОНЕДІЛОК</li>
+        <li rel="tab23" class="tuesday">ВІВТОРОК</li>
+        <li rel="tab24" class="wednesday">СЕРЕДА</li>
+        <li rel="tab25" class="thursday">ЧЕТВЕР</li>
+        <li rel="tab26" class="friday">П'ЯТНИЦЯ</li>
+        <li rel="tab27" class="saturday">СУБОТА</li>
+        <li rel="tab28" class="sunday">НЕДІЛЯ</li>
+      </ul>
+    <div class="tab_container">
+        <h3 class="d_active tab_drawer_heading" rel="tab22">Tab 1</h3>
+        <div id="tab22" class="tab_content">
+        <h2>ПОНЕДІЛОК</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/1.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab1 -->
+        <h3 class="tab_drawer_heading" rel="tab23">Tab 2</h3>
+        <div id="tab23" class="tab_content">
+        <h2>ВІВТОРОК</h2>
+          <div class="blocks">
+              <div class="blocks_video">
+                <a href="#">
+                  <img src="img/2.png" alt="">
+                  <p>ВІДЕО ТРЕНУВАННЯ</p>
+                </a>
+              </div>
+              <div class="blocks__menu">
+                <a href="#">
+                  <img src="img/1.png" alt="">
+                  <p>МЕНЮ НА ДЕНЬ</p>
+                </a>  
+              </div>
+          </div>
+        </div>
+        <!-- #tab2 -->
+        <h3 class="tab_drawer_heading" rel="tab24">Tab 3</h3>
+        <div id="tab24" class="tab_content">
+        <h2>СЕРЕДА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/3.jpg" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab3 -->
+        <h3 class="tab_drawer_heading" rel="tab25">Tab 4</h3>
+        <div id="tab25" class="tab_content">
+        <h2>ЧЕТВЕР</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/4.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab26">Tab 5</h3>
+        <div id="tab26" class="tab_content">
+        <h2>П'ЯТНИЦЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/5.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab5 --> 
+        <h3 class="tab_drawer_heading" rel="tab27">Tab 6</h3>
+        <div id="tab27" class="tab_content">
+        <h2>СУБОТА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/6.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+        <h3 class="tab_drawer_heading" rel="tab28">Tab 7</h3>
+        <div id="tab28" class="tab_content">
+        <h2>НЕДІЛЯ</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/7.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab4 --> 
+      </div>
+      <!-- .tab_container -->
+    </div>  
+    <!-- Четвертая неделя конец -->
+     <!-- Пятая неделя -->
+   <div id="week-five" class="week">
+       пятая неделя
+      <ul class="tabs">
+        <li rel="tab29" class="monday">ПОНЕДІЛОК</li>
+        <li rel="tab30" class="tuesday">ВІВТОРОК</li>
+        <li rel="tab31" class="wednesday">СЕРЕДА</li>
+        <li rel="tab32" class="thursday">ЧЕТВЕР</li>
+        <li rel="tab33" class="friday">П'ЯТНИЦЯ</li>
+        <li rel="tab34" class="saturday">СУБОТА</li>
+        <li rel="tab35" class="sunday">НЕДІЛЯ</li>
+       
+      </ul>
+    <div class="tab_container">
+        <h3 class="d_active tab_drawer_heading" rel="tab29">Tab 1</h3>
+        <div id="tab29" class="tab_content">
+        <h2>ПОНЕДІЛОК</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/1.png" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+        </div>
+        </div>
+        <!-- #tab1 -->
+        
+        <h3 class="tab_drawer_heading" rel="tab30">Tab 2</h3>
+        <div id="tab30" class="tab_content">
+        <h2>ВІВТОРОК</h2>
+          <div class="blocks">
+              <div class="blocks_video">
+                <a href="#">
+                  <img src="img/2.png" alt="">
+                  <p>ВІДЕО ТРЕНУВАННЯ</p>
+                </a>
+              </div>
+              <div class="blocks__menu">
+                <a href="#">
+                  <img src="img/1.png" alt="">
+                  <p>МЕНЮ НА ДЕНЬ</p>
+                </a>  
+              </div>
+          </div>
+        </div>
+        <!-- #tab2 -->
+        <h3 class="tab_drawer_heading" rel="tab31">Tab 3</h3>
+        <div id="tab31" class="tab_content">
+        <h2>СЕРЕДА</h2>
+        <div class="blocks">
+            <div class="blocks_video">
+              <a href="#">
+                <img src="img/2.png" alt="">
+                <p>ВІДЕО ТРЕНУВАННЯ</p>
+              </a>
+            </div>
+            <div class="blocks__menu">
+              <a href="#">
+                <img src="img/3.jpg" alt="">
+                <p>МЕНЮ НА ДЕНЬ</p>
+              </a>  
+            </div>
+            
+        </div>
+        </div>
+        <!-- #tab3 -->
+         <!-- #tab3 -->
+         <h3 class="tab_drawer_heading" rel="tab32">Tab 4</h3>
+         <div id="tab32" class="tab_content">
+         <h2>ЧЕТВЕР</h2>
+         <div class="blocks">
+             <div class="blocks_video">
+               <a href="#">
+                 <img src="img/2.png" alt="">
+                 <p>ВІДЕО ТРЕНУВАННЯ</p>
+               </a>
+             </div>
+             <div class="blocks__menu">
+               <a href="#">
+                 <img src="img/4.png" alt="">
+                 <p>МЕНЮ НА ДЕНЬ</p>
+               </a>  
+             </div>
+         </div>
+         </div>
+         <!-- #tab4 --> 
+         <h3 class="tab_drawer_heading" rel="tab33">Tab 5</h3>
+         <div id="tab33" class="tab_content">
+         <h2>П'ЯТНИЦЯ</h2>
+         <div class="blocks">
+             <div class="blocks_video">
+               <a href="#">
+                 <img src="img/2.png" alt="">
+                 <p>ВІДЕО ТРЕНУВАННЯ</p>
+               </a>
+             </div>
+             <div class="blocks__menu">
+               <a href="#">
+                 <img src="img/5.png" alt="">
+                 <p>МЕНЮ НА ДЕНЬ</p>
+               </a>  
+             </div>
+         </div>
+         </div>
+         <!-- #tab5 --> 
+         <h3 class="tab_drawer_heading" rel="tab34">Tab 6</h3>
+         <div id="tab34" class="tab_content">
+         <h2>СУБОТА</h2>
+         <div class="blocks">
+             <div class="blocks_video">
+               <a href="#">
+                 <img src="img/2.png" alt="">
+                 <p>ВІДЕО ТРЕНУВАННЯ</p>
+               </a>
+             </div>
+             <div class="blocks__menu">
+               <a href="#">
+                 <img src="img/6.png" alt="">
+                 <p>МЕНЮ НА ДЕНЬ</p>
+               </a>  
+             </div>
+         </div>
+         </div>
+         <!-- #tab4 --> 
+         <h3 class="tab_drawer_heading" rel="tab35">Tab 7</h3>
+         <div id="tab35" class="tab_content">
+         <h2>НЕДІЛЯ</h2>
+         <div class="blocks">
+             <div class="blocks_video">
+               <a href="#">
+                 <img src="img/2.png" alt="">
+                 <p>ВІДЕО ТРЕНУВАННЯ</p>
+               </a>
+             </div>
+             <div class="blocks__menu">
+               <a href="#">
+                 <img src="img/7.png" alt="">
+                 <p>МЕНЮ НА ДЕНЬ</p>
+               </a>  
+             </div>
+         </div>
+         </div>
+         <!-- #tab4 --> 
+        
+      </div>
+      <!-- .tab_container -->
+    </div>  
+    <!-- Пятая неделя конец -->
+    </div>
+</div>   
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment-with-locales.js"></script>
+    <script src="timezones.js"></script>
+    <!--<script src="script.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+   <script>
+    $(window).on('load', function(){
+      $(".preloader").delay(200).fadeOut('slow').remove();
+    });
+  
+   </script>
+</body>
+</html>
